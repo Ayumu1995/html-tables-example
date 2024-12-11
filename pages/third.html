@@ -9,51 +9,64 @@
 
   <body>
     <div class="table-wrapper">
-      <h2 id="semester_2_schedule">Semester Ⅱ Schedule</h2>
+      <h2 id="coffee_varieties_information">Coffee Varieties Information</h2>
 
-      <table aria-labelledby="semester_2_schedule">
+      <table aria-labelledby="coffee_varieties_information">
         <caption>
-          Fig: Semester 2 Course Schedule
+          Fig: Details of coffee varieties, including flavor, region, and roast.
         </caption>
 
         <thead>
           <tr>
-            <th id="course" scope="col">Course</th>
-            <th id="time" scope="colgroup" colspan="2">Time</th>
-            <th id="room" scope="col">Room</th>
-            <th id="day" scope="col">Day</th>
+            <th id="name" scope="col">Name</th>
+            <th id="flavor" scope="col">Flavor Profile</th>
+            <th id="region" scope="col">Production Area</th>
+            <th id="price" scope="col">Price per 100g (USD)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th id="english2" scope="rowgroup" rowspan="2" headers="course">English Ⅱ</th>
-            <td headers="time english2">9:00</td>
-            <td headers="time english2">11:00</td>
-            <td headers="room english2">L2201</td>
-            <td headers="day english2">Monday</td>
+            <th id="kilimanjaro" scope="row" headers="name">Kilimanjaro</th>
+            <td headers="flavor kilimanjaro">Bright acidity with a wine-like and citrusy taste</td>
+            <td headers="region kilimanjaro"><img src="../assets/kilimanjaro.png" /></td>
+            <td headers="price kilimanjaro">$7.50</td>
           </tr>
 
           <tr>
-            <td headers="time english2">9:00</td>
-            <td headers="time english2">11:00</td>
-            <td headers="room english2">L2201</td>
-            <td headers="day english2">Wednesday</td>
+            <th id="mocha" scope="row">Mocha</th>
+            <td headers="flavor mocha">Fruity and wine-like with hints of chocolate</td>
+            <td headers="region mocha"><img src="../assets/mocha.png" /></td>
+            <td headers="price mocha">$8.00</td>
           </tr>
 
           <tr>
-            <th id="geography" scope="row" headers="course">Geography</th>
-            <td headers="time geography">11:00</td>
-            <td headers="time geography">12:45</td>
-            <td headers="room geography">LG107</td>
-            <td headers="day geography">Tuesday</td>
+            <th id="blue_mountain" scope="row">Blue Mountain</th>
+            <td headers="flavor blue_mountain">Balanced with mild acidity and floral notes</td>
+            <td headers="region blue_mountain"><img src="../assets/blue_mountain.png" /></td>
+            <td headers="price blue_mountain">$12.00</td>
           </tr>
 
           <tr>
-            <th id="biology" scope="row" headers="course">Biology</th>
-            <td headers="time biology">9:00</td>
-            <td headers="time biology">11:00</td>
-            <td headers="room biology">B302</td>
-            <td headers="day biology">Friday</td>
+            <th id="guatemala" scope="row">Guatemala</th>
+            <td headers="flavor guatemala">Full-bodied with bright acidity and cocoa notes</td>
+            <td headers="region guatemala"><img src="../assets/guatemala.png" /></td>
+            <td headers="price guatemala">$6.50</td>
+          </tr>
+
+          <tr>
+            <th id="colombia" scope="row">Colombia</th>
+            <td headers="flavor colombia">Smooth and nutty with hints of caramel</td>
+            <td headers="region colombia"><img src="../assets/columbia.png" /></td>
+            <td headers="price colombia">$5.50</td>
+          </tr>
+
+          <tr>
+            <th id="mandheling" scope="row">Mandheling</th>
+            <td headers="flavor mandheling">
+              Full-bodied, low acidity with earthy and spicy notes
+            </td>
+            <td headers="region mandheling"><img src="../assets/mandheling.png" /></td>
+            <td headers="price mandheling">$7.00</td>
           </tr>
         </tbody>
       </table>
@@ -61,8 +74,8 @@
 
     <ul>
       <li><a href="../index.html">1st</a></li>
-      <li><a href="./second.html">2st</a></li>
-      <li><a href="#" id="current_page">3st</a></li>
+      <li><a href="#" id="current_page">2nd</a></li>
+      <li><a href="./third.html">3rd</a></li>
     </ul>
   </body>
 </html>
