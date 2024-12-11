@@ -28,7 +28,7 @@ This project demonstrates how to create and style HTML tables. It includes examp
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/html-tables-example.git
+   git clone https://github.com/Ayumu1995/html-tables-example.git
    ```
 2. Open `index.html` in your web browser to view the examples.
 
